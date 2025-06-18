@@ -24,3 +24,9 @@ print("the type of c is:",type(c),"\n the value of c is:",c)
 
 n= str(b)
 print("the type of n is:",type(n),"\n the value of n is:",n)
+
+
+# reverse 
+n= input("Enter the word you want to reverse:")
+rev= n[::-1]
+print("the word",n,"after reversing is:",rev)
